@@ -19,10 +19,6 @@ The code uses object oriented PHP 5 features including:
 A sample script is included (sample.php) which demonstrates the 
 functionality of mod_dbo.
 
-This version of mod_dbo has not been extensively tested, is insecure 
-and not feature complete. It is for demonstration purposes only and
-should not be used in a production environment.
-
 
 INSTRUCTIONS
 --------------------------------------------------------------------
@@ -37,7 +33,7 @@ DATABASE
 --------------------------------------------------------------------
 
 use the following mysql commands to create the database & user 
-required for this sample script.
+required for the sample script.
 
 	CREATE DATABASE `myDatabase`;
 
@@ -56,3 +52,10 @@ required for this sample script.
 	GRANT SELECT , INSERT , UPDATE , CREATE VIEW , SHOW VIEW ON  
 	`myDatabase` . * TO  'user'@'localhost';
 
+
+WARNING
+--------------------------------------------------------------------
+
+This version of mod_dbo has not been extensively tested, is insecure 
+and not feature complete. It is for demonstration purposes only and
+should not be used in a production environment.
