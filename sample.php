@@ -101,7 +101,7 @@ if ($intId)
 }
 else
 {
-	echo "inserted failed\n";
+	echo "insert failed\n";
 	die();
 }
 
