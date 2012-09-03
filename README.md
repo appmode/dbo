@@ -8,13 +8,13 @@ the aphplix project. Some features (including error handling and
 security features) have been removed to simplify the code.
 
 The code uses object oriented PHP 5 features including:
-Public, private & protected methods and properties.
-Static methods.
-Class inheritance.
-Object overloading.
-Implementation of an iterator.
-Use of the singleton design pattern.
-Use of the __clone() method.
+* Public, private & protected methods and properties.
+* Static methods.
+* Class inheritance.
+* Object overloading.
+* Implementation of an iterator.
+* Use of the singleton design pattern.
+* Use of the __clone() method.
 
 A sample script is included (sample.php) which demonstrates the 
 functionality of mod_dbo.
